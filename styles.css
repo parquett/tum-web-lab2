@@ -111,3 +111,98 @@ section h2 {
     margin-bottom: 1rem;
 }
 
+/* Tokenomics */
+.tokenomics-info {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.token-distribution ul {
+    margin-top: 1rem;
+}
+
+.token-distribution li {
+    margin-bottom: 0.5rem;
+}
+
+/* Pie Chart */
+.chart-container {
+    width: 300px;
+    height: 300px;
+    margin: 2rem auto;
+    position: relative;
+}
+
+.pie-chart {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.slice {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: 50% 50%;
+}
+
+.public-sale {
+    background: #FF6B6B;
+    clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 100%, 50% 100%);
+    transform: rotate(0deg);
+}
+
+.development {
+    background: #4ECDC4;
+    clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 50%);
+    transform: rotate(144deg);
+}
+
+.team {
+    background: #45B7D1;
+    clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 30%);
+    transform: rotate(216deg);
+}
+
+.marketing {
+    background: #96CE12;
+    clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 30%);
+    transform: rotate(270deg);
+}
+
+.reserve {
+    background: #FFBE0B;
+    clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 20%);
+    transform: rotate(324deg);
+}
+
+.chart-legend {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.chart-legend li {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.legend-color {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+}
+
+.legend-color.public-sale-color { background: #FF6B6B; }
+.legend-color.development-color { background: #4ECDC4; }
+.legend-color.team-color { background: #45B7D1; }
+.legend-color.marketing-color { background: #96CE12; }
+.legend-color.reserve-color { background: #FFBE0B; }
+
