@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Lightning Bolt -->
+  <path d="M36 4L12 36h16l-4 24L48 28H32L36 4z" 
+        fill="#6c5ce7" 
+        stroke="#6c5ce7" 
+        stroke-width="2" 
+        stroke-linejoin="round"/>
+</svg>

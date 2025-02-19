@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Leaf Shape -->
+  <path d="M12 32c0-20 20-20 40-20C52 32 32 52 12 32z" 
+        fill="#6c5ce7"/>
+  <!-- Leaf Vein -->
+  <path d="M32 32L52 12" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="2" 
+        stroke-linecap="round"/>
+  <!-- Small Veins -->
+  <path d="M38 26l6-6M26 38l6-6" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="2" 
+        stroke-linecap="round"/>
+</svg>
