@@ -61,6 +61,22 @@ nav a:hover {
     margin-bottom: 1rem;
 }
 
+.content {
+    background: var(--white);
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: var(--text-color);
+}
+
 .cta-button {
     background-color: var(--white);
     color: var(--primary-color);
