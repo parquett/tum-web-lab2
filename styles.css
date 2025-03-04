@@ -379,3 +379,22 @@ footer {
     transform: translateX(0);
     display: block;
 }
+
+/* Adaptive Mascot */
+@media (max-width: 768px) {
+    .mascot {
+        bottom: 10px;
+        right: 10px;
+    }
+    
+    .mascot-image {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .mascot-message {
+        max-width: 200px;
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+}
