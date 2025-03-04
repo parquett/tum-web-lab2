@@ -272,3 +272,37 @@ footer {
 .feature:hover {
     transform: translateY(-5px);
 }
+
+/* only mobile */
+@media (max-width: 768px) {
+    .mobile-only-section {
+        display: block;
+        background: linear-gradient(120deg, #2A0845, #6441A5);
+        color: white;
+        padding: 2rem 1.5rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .mobile-only-section h3 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    
+    .mobile-only-section p {
+        font-size: 1.1rem;
+    }
+    
+    .mobile-app-preview {
+        max-width: 250px;
+        margin: 1.5rem auto;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+}
+
+@media (min-width: 769px) {
+    .mobile-only-section {
+        display: none;
+    }
+}
