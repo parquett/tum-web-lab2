@@ -326,3 +326,34 @@ footer {
         transform: translateY(0);
     }
 }
+
+.mascot-message {
+    background: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 250px;
+    margin-right: 10px;
+    position: relative;
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity 0.3s, transform 0.3s;
+    display: none;
+}
+
+.mascot-message:after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    bottom: 20px;
+    border-width: 10px 0 10px 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
+}
+
+.mascot:hover .mascot-message {
+    opacity: 1;
+    transform: translateX(0);
+    display: block;
+}
+
