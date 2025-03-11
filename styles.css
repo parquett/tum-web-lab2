@@ -6,6 +6,10 @@
     --text-color: #2d3436;
     --white: #ffffff;
     --bs-primary: #6c5ce7;
+    --bs-primary-rgb: 108, 92, 231;
+    --bs-info: #45B7D1;
+    --bs-success: #4ECDC4;
+    --bs-warning: #FFBE0B;
 }
 
 body {
@@ -430,6 +434,9 @@ footer {
     color: var(--bs-primary) !important;
 }
 
+.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
 
 .btn-outline-primary {
     color: var(--bs-primary);
@@ -450,3 +457,8 @@ footer {
     box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
 }
 
+@media (max-width: 768px) {
+    .timeline-step .d-none.d-md-block {
+        display: none !important;
+    }
+}
